@@ -1,0 +1,14 @@
+#  git 回滚撤销：
+
+>> git reset master^  // ^： master的前一个提交
+>> git reset master~5 // 回退前五次
+>> git reset commit_id  // 绝对撤销
+>> git reset --hard
+>> git reset --soft 
+>> git reset --mixed 
+>> git revert // 
+>> git reset // 只是移动指针
+
+
+
+
